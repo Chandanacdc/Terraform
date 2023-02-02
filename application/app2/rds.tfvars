@@ -1,0 +1,9 @@
+appname         = "app1"
+env             = "dev"
+engine          = "biprrrr"
+size            = "db.t4g.micro"
+sg_name         = "launch-wizard-1"
+engine_version  = "13.7"
+uname           = "bipro"
+password        = "Chandana1234"
+allocated_storage= 10
