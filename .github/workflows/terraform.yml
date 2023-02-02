@@ -7,7 +7,7 @@ on:
       tfpath:
         description: 'TF File Path'     
         required: false
-        default: 'application/app1/'
+        default: 'application/app1'
 
 jobs:
   tf_code_check:
@@ -38,5 +38,5 @@ jobs:
         echo "** Running Terraform Validate**"
         terraform validate
         echo "** Running Terraform Plan**"
-        terraform plan
+        terraform plan -var-file="ec2.tfvars"
       working-directory: ${{ github.event.inputs.tfpath }}
