@@ -36,7 +36,11 @@ jobs:
       
     - shell: bash
       run: |
+        echo "running  ls -ltr"
         ls -ltr
+        echo "running  pwd"
         pwd
+        echo "running  aws --version"
         aws --version
+        echo "running  aws s3 ls"
         aws s3 ls
