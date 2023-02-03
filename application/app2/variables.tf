@@ -7,7 +7,7 @@ variable "env" {
   description = "Environment Name"
   type = string
    validation {
-    condition     = var.env="dev" || var.env="qa" || var.env="prod"
+    condition     = var.env=="dev" || var.env=="qa" || var.env=="prod"
     error_message = "the environment name you entered is not correct, the correct options are, dev, qa, prod"
   }
 }

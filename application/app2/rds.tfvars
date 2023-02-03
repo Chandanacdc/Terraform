@@ -1,6 +1,6 @@
 appname         = "app1"
 env             = "dev"
-engine          = "biprrrr"
+engine          = "postgres"
 size            = "db.t4g.micro"
 sg_name         = "launch-wizard-1"
 engine_version  = "13.7"
